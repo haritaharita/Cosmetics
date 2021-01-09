@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 20vh;
+    /* background-color: #fcd2b1; */
+    background-color: #f6dccf;
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #5b2016;
+}
+
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 72%;
+    height: auto;
+}
+
+/* about information with text */
+
+.about-info {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.about-img {
+    width: 40%;
+    height: 100%;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.about-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: rgb(65, 65, 65);
+    text-transform: uppercase;
+}
+
+.about-text h2 {
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 5rem;
+    /* color: #8c0091; */
+}
+
+.about-text p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: justify;
+    color: rgb(65, 65, 65);
+}
+
+.about-text span {
+    /* color: #8c0091; */
+    color: #d7383d;
+}
+
+/* css style for table goes here  */
+
+caption {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+table {
+    width: 75%;
+    margin: 7vh auto;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+th {
+    padding: 1.5rem;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid rgb(170, 170, 170);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#caption-text {
+    font-size: .7rem;
+    line-height: 1rem;
+    color: gray;
+}
+
+table tr td img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 5px 5px 0 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #faf1f1;
+}
+
+th {
+    background-color: #f6dccf;
+}
+
+/* footer goes here */
+
+footer {
+    background-color: #f6dccf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5vh;
+}
+
+.footer-logo {
+    width: 25%;
+    margin-top: 5vh;
+}
+
+footer h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+footer p {
+    font-size: .9rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+footer .media-icons img {
+    width: 40px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 15px;
+}

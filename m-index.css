@@ -1,0 +1,237 @@
+@media screen and (max-width: 768px){
+
+/* navbar modifications */
+
+.navbar 
+    {
+        height : 10vh;
+    }
+
+    .navigation li a {
+        font-size: .8rem;
+    }
+
+    .banner{
+        height: 75vh;
+    }
+
+    .bannerMsg h1{
+        font-size: 2rem;
+    }
+
+    .bannerMsg p{
+        font-size: .8rem;
+    }
+
+    .explore {
+        padding : 1rem;
+    }
+
+    .explore h1 {
+        font-size: .9rem;
+    }
+/* c- info */
+    .box h1{
+        font-size: .9rem;
+    }
+
+    .box p{
+        font-size: .5rem;
+    }
+
+    /* section 2 manipulations */
+
+    .featuredContainer {
+        margin-top: 10vh;
+    }
+
+    .featuredHeading p{
+        font-size: .7rem;
+    }
+
+    .featuredcards {
+        flex-direction: column;
+    align-items: center;
+    }
+
+    .featuredHeading h1{
+        font-size: 1.5rem;
+    }
+
+    /* video section */
+
+    .video-container{
+        height: 40vh;
+    }
+
+    .video .text{
+        outline-offset: -2rem; 
+    }
+
+    .quote p{
+        font-size: .9rem;
+    }
+
+    .video .text h5{
+        font-size: .7rem;
+    }
+    /* newsletter modification */
+
+    .subscribe{
+        margin:5vh 0;
+    }
+
+    .subscribe .material-icons {
+        font-size: 2.5rem;
+    }
+    .subscribe h1 {
+        font-size: 1.5rem;
+    }
+    .subscribe #email {
+        font-size: .9rem;
+    }
+    .subscribe #submit{
+        font-size:.9rem;
+    }
+
+    /* footer modification */
+
+    .footer-logo{
+        width:30%;
+    }
+footer h2{
+    font-size:1rem;
+}
+footer p{
+    font-size: .7rem;
+    line-height: 1.3rem;
+}
+footer .media-icons img{
+    width:30px;
+    padding:3px;
+}
+}
+/* Media query on 976px */
+
+@media screen and (max-width: 976px){
+
+    /* navbar modifications */
+    
+    .navbar 
+        {
+            height : 15vh;
+        }
+    
+        .navigation li a {
+            font-size: .9rem;
+        }
+        .banner{
+            height: 70vh;
+        }
+    
+        .bannerMsg h1{
+            font-size: 2.4rem;
+        }
+    
+        .bannerMsg p{
+            font-size: .9rem;
+        }
+    
+        .explore {
+            padding : 1.3rem;
+        }
+    
+        .explore h1 {
+            font-size: 1rem;
+        }
+        /* c info */
+        .box h1{
+            font-size: 1rem;
+        }
+    
+        .box p{
+            font-size: .7rem;
+        }
+
+        
+    /* section 2 manipulations */
+
+    .featuredContainer {
+        margin-top: 12vh;
+    }
+
+    .featuredHeading p{
+        font-size: .8rem;
+    }
+
+    .featuredHeading h1{
+        font-size: 1.7rem;
+    }
+    .f-card{
+        max-width:270px;
+    }
+    .f-text h1{
+        font-size: 1.1rem;
+        line-height: 2.5rem;
+    }
+    .f-text p{
+        font-size:.85rem;
+        line-height: 1.6rem;
+    }
+    .f-text button{
+        font-size: .8rem;
+    }
+     /* video section */
+
+     .video-container{
+        height: 55vh;
+    }
+
+    .video .text{
+        outline-offset: -2.4rem; 
+    }
+
+    .quote p{
+        font-size: 1.2rem;
+    }
+
+    .video .text h5{
+        font-size: .8rem;
+    }
+    /* newsletter modification */
+
+    .subscribe{
+        margin:7vh 0;
+    }
+
+    .subscribe .material-icons {
+        font-size: 3rem;
+    }
+    .subscribe h1 {
+        font-size: 1.7rem;
+    }
+    .subscribe #email {
+        font-size: 1rem;
+    }
+    .subscribe #submit{
+        font-size:1rem;
+    }
+
+    /* footer modification */
+
+    .footer-logo{
+        width:30%;
+    }
+footer h2{
+    font-size:1.1rem;
+}
+footer p{
+    font-size: .75rem;
+    line-height: 1.4rem;
+}
+footer .media-icons img{
+    width:35px;
+    padding:3.5px;
+}
+
+    }

@@ -1,0 +1,429 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E6EE;
+}
+
+/*css for navbar and logo*/
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 20vh;
+    background-color: #fcd2b1;
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #5b2016;
+}
+
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 72%;
+    height: auto;
+}
+
+/*banner css goes here*/
+
+.banner {
+    width: 100%;
+    height: 65vh;
+    background-image: url(Images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.bannerMsg {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.bannerMsg h1 {
+    font-family: 'Playfair Display', serif;
+    line-height: 4.5rem;
+    font-size: 3rem;
+
+}
+
+.bannerMsg p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.39);
+    padding: 0 2rem 0 2rem;
+}
+
+.bannerMsg span {
+    color: #8c0091;
+    background-color: rgba(255, 255, 255, 0.55);
+
+}
+
+.explore {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-family: 'poppins', sans-serif;
+    text-transform: uppercase;
+    background: #fcd1b1;
+    padding: 2rem;
+}
+
+.explore a {
+    text-decoration: none;
+}
+
+.explore h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #5b2016;
+}
+
+.explore .material-icons {
+    font-size: 2rem;
+    padding: 0 0 0 1rem;
+    color: #5b2016;
+
+}
+
+/*C-info css goes here */
+.c-info {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+
+}
+
+.c-info span {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box h1 {
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box p {
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+.box1 {
+    flex: 1;
+
+}
+
+.box2 {
+    flex: 1;
+    border-left: 1px solid rgba(128, 128, 128, 0.322);
+    border-right: 1px solid rgba(128, 128, 128, 0.329);
+}
+
+.box3 {
+    flex: 1;
+}
+
+/* section 2*/
+.featuredContainer {
+    width: 100%;
+    margin-top: 15vh;
+    /* seperates ection and section 2*/
+}
+
+.featuredHeading {
+    width: 100%;
+
+}
+
+.featuredHeading p {
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 2rem;
+
+}
+
+.featuredHeading h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4rem;
+}
+
+.featuredcards {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-around;
+
+}
+
+.f-card {
+    max-width: 300px;
+}
+
+
+
+.f-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.f-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.f-text h1 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.f-text p {
+    font-size: .95rem;
+    line-height: 1.8rem;
+}
+
+.f-text button {
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: .7rem 3.5rem;
+    margin: 1.5rem;
+    /* border: 2px solid black; */
+    /* border-radius: 2rem; */
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background: #e5e6ee;
+    box-shadow: 10px 10px 12px #bebfc6, -10px -10px 12px #ffffff;
+    transition: box-shadow 1s;
+}
+
+.f-text button:hover {
+    box-shadow: inset 10px 10px 12px #bebfc6, inset -10px -10px 12px #ffffff;
+
+}
+
+.featuredHeading hr {
+    width: 20%;
+    margin: 0 auto;
+    border: .5px solid #8c0091;
+}
+
+.featuredHeading span {
+    color: #8c0091;
+}
+
+/* video container & text */
+.video-container {
+    width: 100%;
+    height: 70vh;
+    margin: 8vh 0;
+    position: relative;
+
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video .text {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    background-color: #fcd2b1;
+    outline: 2px solid white;
+    outline-offset: -3rem;
+}
+
+.quote {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.quote p {
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    /* font-family:  'Montserrat', sans-serif; */
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(58, 58, 58);
+    line-height: 2.3rem;
+}
+
+.quote-top {
+    transform: rotateY(180deg);
+}
+
+.quote p span {
+    color: #8c0091;
+
+}
+
+.video .text h5 {
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+/* newsletter goes here */
+.subscribe {
+    margin: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe .material-icons {
+    font-size: 4rem;
+    color: #8c0091;
+    /* color:#5f231a; */
+    transform: rotate(-25deg);
+}
+
+.subscribe h1 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 2rem;
+    line-height: 6rem;
+}
+
+.subscribe #email {
+    width: 300px;
+    padding: .4rem 1.4rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subscribe #submit {
+    padding: .5rem 1.5rem;
+    text-transform: uppercase;
+    background-color: #8c0091;
+    /* background-color: #5f231a; */
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* footer goes here */
+
+footer {
+    background-color: #fcd2b1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5vh;
+}
+
+.footer-logo {
+    width: 25%;
+    margin-top: 5vh;
+}
+
+footer h2 {
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+
+}
+
+footer p {
+
+    font-size: .9rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+footer .media-icons img {
+    width: 40px;
+
+    border: 1px solid black;
+    padding: 5px;
+    margin: 15px;
+
+}

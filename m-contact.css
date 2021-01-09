@@ -1,0 +1,143 @@
+@media screen and (max-width: 768px) {
+
+    /* navbar modifications */
+
+    .navbar {
+        height: 10vh;
+    }
+
+    .navigation li a {
+        font-size: .8rem;
+    }
+    .contact-header{
+        display: block;
+    }
+    .contact-image{
+        width:100%;
+    }
+    .contact-text{
+        width:100%;
+        height:auto;
+    }
+    .contact-text h1{
+   font-size: 2rem;
+    }
+    /* contact form */
+    .email-form{
+        margin-top:7vh;
+    }
+    input{
+        font-size: 1.2rem;
+        color:black;
+    }
+    .input-area{
+        margin:1rem 0;
+    }
+    #map{
+        margin-top:2vh;
+        margin-bottom:20vh;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+    
+    /* footer modification */
+
+    footer {
+        margin-top: 5vh;
+    }
+
+    .footer-logo {
+        width: 30%;
+    }
+
+    footer h2 {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: .7rem;
+        line-height: 1.3rem;
+    }
+
+    footer .media-icons img {
+        width: 30px;
+        padding: 3px;
+    }
+}
+
+
+@media screen and (max-width: 976px){
+
+    /* navbar modifications */
+    
+    .navbar 
+        {
+            height : 15vh;
+        }
+    
+        .navigation li a {
+            font-size: .9rem;
+        }
+
+        .contact-header{
+            display: block;
+        }
+        .contact-image{
+            width:100%;
+        }
+        .contact-text{
+            width:100%;
+            height:auto;
+        }
+        .contact-text h1{
+       font-size: 2rem;
+        }
+        /* contact form */
+        .email-form{
+            margin-top:7vh;
+        }
+        input{
+            font-size: 1.2rem;
+            color:black;
+        }
+        .input-area{
+            margin:1rem 0;
+        }
+        #map{
+            margin-top:2vh;
+            margin-bottom:20vh;
+        }
+
+          /* footer modification */
+    footer {
+        margin-top: -15%;
+        padding-bottom: 2vh;
+    }
+
+    .footer-logo {
+        width: 30%;
+    }
+
+    footer h2 {
+        font-size: 1.1rem;
+    }
+
+    footer p {
+        font-size: .75rem;
+        line-height: 1.4rem;
+    }
+
+    footer .media-icons img {
+        width: 35px;
+        padding: 3.5px;
+    }
+    }

@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 20vh;
+    background: linear-gradient(to right, #fde249, #fde246, #fde242, #fde23f, #fde23b);
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #5b2016;
+}
+
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 72%;
+    height: auto;
+}
+
+
+/* banner image style goes  here  */
+
+.p-banner {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+}
+
+.p-image {
+    width: 50%;
+    height: 100%;
+}
+
+.p-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.p-text {
+    width: 50%;
+    height: 100%;
+    background: #fde23b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.p-text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.p-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #f85d79;
+    line-height: rem;
+    text-shadow: 6px -2px 3px rgba(255, 255, 255, 0.7);
+}
+
+.p-text .banner-button {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.p-text .banner-button p {
+    font-family: 'Poppins', sans-serif;
+    margin: 1rem 2rem 1rem 0rem;
+    padding: 1rem 1.5rem;
+    font-size: .8rem;
+    color : #361414;
+    text-transform: uppercase;
+    border-radius: 26px;
+    background: #fde23b;
+    border-radius: 26px;
+    background: #fde23b;
+    transition: box-shadow 1s;
+    box-shadow: 5px 5px 10px #b9a52b, -5px -5px 10px #ffff4b;
+    
+}
+
+.p-text .banner-button p:hover {
+box-shadow: inset 5px 5px 10px #b9a52b,  inset -5px -5px 10px #ffff4b;
+}
+
+/* product gallery  */
+
+.gallery-header {
+    width : 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top : 15vh;
+
+}
+
+.gallery-header h1 {
+    font-size : 2rem;
+    text-transform: uppercase;
+     color : rgb(88, 88, 88);
+}
+
+.gallery-header p  {
+    text-transform: uppercase;
+    color: #f85d79;
+    font-size : .8rem;
+    line-height: 4rem;
+    letter-spacing: 4px;
+    
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.p-card {
+   position: relative;
+   text-transform: uppercase;
+   font-family: 'Poppins', sans-serif;
+   margin :3rem 2rem;
+   text-align: center;
+   color : grey;
+   
+}
+
+.p-card img {
+width : 220px;
+height: 220px;
+object-fit: cover;
+outline: 1px solid #fde23b;
+outline-offset: .5rem;
+transition: outline 1s;
+
+}
+
+.p-card:hover img {
+ outline: 1px solid #f85d79;
+}
+.p-card:hover h4{
+    background: #f85d79;
+    color: white;
+}
+
+.p-card:hover p{
+    background-color: #fde23b;
+}
+
+.p-card h1 {
+ font-family: 'Montserrat', sans-serif;
+font-size : 1.1rem;
+line-height: 2.5rem;
+color: rgb(49, 49, 49);
+
+
+}
+.p-card h2 {
+    font-size : .9rem;
+
+}
+
+.p-card h3 {
+    font-size : .9rem;
+    line-height: 2rem;
+}
+
+.p-card h4 {
+    position: absolute;
+    top: 0;
+    right : 0;
+    transform: translateY(-50%);
+    background : #fde23b;
+    padding : .5rem .7rem;
+    transition: background-color 1s;
+}
+
+.p-card p {
+      background: #f85d79;
+      padding : .5rem .7rem;
+    color : white;
+    transition: background-color 1s;
+
+}
+
+/* footer goes here */
+
+footer {
+    background-color: #fde23b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5vh;
+}
+
+.footer-logo {
+    width: 25%;
+    margin-top: 5vh;
+}
+
+footer h2 {
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+
+}
+
+footer p {
+
+    font-size: .9rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+footer .media-icons img {
+    width: 40px;
+
+    border: 1px solid black;
+    padding: 5px;
+    margin: 15px;
+
+}
