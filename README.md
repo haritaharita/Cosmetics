@@ -11,5 +11,5 @@ A fully responsive e-commerce fashion website for browsing and buying makepup pr
 * Several CSS styles, including Neomorphism were used to make the website attractive and user friendly.
 
 ## Tools Used:
-Code editor used: ***VS Code***
+Code editor used: ***VS Code***<br>
 Language & libraries: ***HTML, CSS, Bootstrap***
