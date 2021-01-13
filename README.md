@@ -1,6 +1,6 @@
 # M&H Cosmetics Lounge
 
-A fully responsive e-commerce fashion website for browsing and buying makepup products. This project developed by two team members.
+A fully responsive e-commerce fashion website for browsing and buying makeup products. This project developed by two team members.
 
 ## Things to look out for:
 
