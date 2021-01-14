@@ -1,4 +1,4 @@
-Live Preview: [127.0.0.1:5502/index.html]
+Live Preview: [http://127.0.0.1:5502/index.html]
 
 # M&H Cosmetics Lounge
 
