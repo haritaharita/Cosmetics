@@ -1,4 +1,4 @@
-(Click Here to see the live DEMO)[http://127.0.0.1:5500/index.html]
+Live Preview: [http://127.0.0.1:5500/index.html]
 # M&H Cosmetics Lounge
 
 A fully responsive e-commerce fashion website for browsing and buying makeup products. This project developed by two team members.
