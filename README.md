@@ -1,4 +1,4 @@
-Live Preview: [http://127.0.0.1:5502/index.html]
+Live Preview: https://unrealistic-axes.000webhostapp.com/beauty%20website/index.html
 
 # M&H Cosmetics Lounge
 
