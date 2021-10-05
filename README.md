@@ -1,5 +1,4 @@
-Live Preview: https://unrealistic-axes.000webhostapp.com/beauty%20website/index.html
-
+Live Preview: https://cosmetic-lounge.000webhostapp.com/index.html
 # M&H Cosmetics Lounge
 
 A fully responsive e-commerce fashion website for browsing and buying makeup products. This project developed by two team members.
